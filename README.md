@@ -4,7 +4,7 @@ In the "main.py" script, add the following lines to connect to the IBM runtime h
 
 ```
 QiskitRuntimeService.save_account(
-    channel="ibm_quantum", 
+    channel="ibm_quantum_platform", 
     token="YOUR_IBM_QUANTUM_API_KEY",
     overwrite=True  
 )
